@@ -55,6 +55,7 @@ class GameScene: SKScene {
                 print( "pre entity update \(greep.position)")
                 entity.update(deltaTime: dt)
                 print( "post entity update \(greep.position)")
+                // what is happening?
             }
         }
         
