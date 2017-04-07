@@ -23,7 +23,6 @@
 		5D9E762C1E928ACC003F633D /* MoveComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9E762B1E928ACC003F633D /* MoveComponent.swift */; };
 		5D9E762E1E928B01003F633D /* Ship.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9E762D1E928B01003F633D /* Ship.swift */; };
 		5D9E76301E92B40F003F633D /* GreepBehaviors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D9E762F1E92B40F003F633D /* GreepBehaviors.swift */; };
-		5D9E76331E955050003F633D /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 5D9E76321E955050003F633D /* README.md */; };
 		5DCC12541E8EB74C0089ABD4 /* PhysicsCategories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5DCC12531E8EB74C0089ABD4 /* PhysicsCategories.swift */; };
 /* End PBXBuildFile section */
 
@@ -183,7 +182,6 @@
 				5D9E76281E9289E2003F633D /* Greep.swift in Sources */,
 				5D7B03121E8E9CEE00959AAE /* GameScene.swift in Sources */,
 				5D7B032A1E8EA66800959AAE /* Water.swift in Sources */,
-				5D9E76331E955050003F633D /* README.md in Sources */,
 				5D7B03281E8EA65300959AAE /* Tomato.swift in Sources */,
 				5D9E76301E92B40F003F633D /* GreepBehaviors.swift in Sources */,
 				5DCC12541E8EB74C0089ABD4 /* PhysicsCategories.swift in Sources */,

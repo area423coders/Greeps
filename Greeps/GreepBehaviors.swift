@@ -17,3 +17,13 @@ class DefaultGreepBahaviour: GKBehavior
         setWeight(1.0, for: GKGoal(toReachTargetSpeed: Greep.defaultSpeed))
     }
 }
+
+class ReturnHomeGreepBehavior: GKBehavior
+{
+    init( ship: Ship )
+    {
+        super.init()
+        setWeight(0.1, for: GKGoal(toWander: Greep.wanderAmount))
+        setWeight(1.0, for: GKGoal(toSeekAgent: ship.agent))
+    }
+}

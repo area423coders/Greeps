@@ -21,8 +21,6 @@ class GameViewController: UIViewController {
             
             // Get the SKScene from the loaded GKScene
             if let sceneNode = scene.rootNode as! GameScene? {
-                sceneNode.ship.setPosition(position: CGPoint(x:300,y:500))
-                sceneNode.greepsToSpawn = sceneNode.ship.spawnGreeps()
                 // Copy gameplay related content over to the scene
                 sceneNode.entities = scene.entities
                 sceneNode.graphs = scene.graphs

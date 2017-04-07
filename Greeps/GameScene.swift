@@ -25,7 +25,9 @@ class GameScene: SKScene {
     }
     
     override func didMove(to view: SKView) {
-        self.lastUpdateTime = 0        
+        self.lastUpdateTime = 0
+        ship.setPosition(position: CGPoint(x:300,y:500))//ideally done in GVC?
+        greepsToSpawn = ship.spawnGreeps()//ideally done in GVC?
         entities.append(ship)
         addChild(ship.sprite!)
     }

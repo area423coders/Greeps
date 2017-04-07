@@ -17,12 +17,18 @@ class Ship: GKEntity
         return sprite.node
     }
     
+    var agent: GKAgent2D
+    {
+        return component(ofType: GKAgent2D.self)!         
+    }
+    
     override init()
     {
         super.init()
         let sprite = SpriteComponent(texture: SKTexture(imageNamed: "ship.png"))
         sprite.node.physicsBody?.categoryBitMask = PhysicsCategories.shipCategory.rawValue
         addComponent(sprite)
+        addComponent( GKAgent2D() )
     }
     
     required init?(coder aDecoder: NSCoder) {

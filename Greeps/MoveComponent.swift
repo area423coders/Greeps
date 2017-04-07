@@ -17,7 +17,7 @@ class MoveComponent: GKAgent2D//, GKAgentDelegate
     {
         self.ship = ship
         super.init()
-        behavior = DefaultGreepBahaviour()
+        behavior = ReturnHomeGreepBehavior(ship: ship)
         speed = Greep.defaultSpeed
         maxAcceleration = Greep.defaultSpeed
         rotation = Float(Int(arc4random() % 360)) - 180.0
